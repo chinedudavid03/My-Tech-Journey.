@@ -1,0 +1,119 @@
+body{
+    background-color: black;
+    font-family:cursive ;
+}
+
+.container{
+    position: absolute;
+    left:650px;
+    display:flex;
+}
+
+.profile{
+    width: 500px;
+    height: 700px;
+    object-fit:cover;
+    border-radius: 20%;
+    margin-left: 10px;
+    margin-top: 70px;
+}
+
+.box{
+    background-color: white;
+    height: 1200px;
+    width: 600px;
+    border-bottom-right-radius:100px ;
+    border-top-left-radius:100px ;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.context{
+    padding: 10px 10px;
+}
+
+.form{
+    background-color: rgb(200, 210, 212);
+    position: absolute;
+    height: 500px;
+    width: 600px;
+    border-radius: 70px;
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.text{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 60px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.action{
+    position: absolute;
+    width:100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight:bold;
+    border-radius: 25px;
+    padding:15px;
+    border:none;
+    cursor: pointer;
+    transition:  transform 0.5s ease;
+    transition: box-shadow 0.4s ease border-color 0.4s ease ;
+}
+
+.action:hover{
+    background-color:black;
+    color:white;
+    transform: scale(1.2);
+    box-shadow: 0 0 15px rgb(52, 59, 59), 0 0 25px  rgb(52, 59, 59) ;
+    border-color:  rgb(52, 59, 59);
+}
+
+
+#name{
+    margin-left: 5px;
+    margin-right: 40px;
+}
+
+#state{
+    margin-left: 10px;
+   
+}
+
+ input{
+        border-radius: 10px;
+        font-size: 15px;
+        padding: 5px;
+        border: none;
+    }
+
+    .name{
+        font-size: 20px;
+        font-weight: bolder;
+
+    }
+    .state{
+        font-size: 20px;
+        font-weight: bolder;
+
+    }
+
+
+    label{
+        font-size: 20px;
+    }
+
+    .special{
+         font-weight: bolder;
+
+    }
