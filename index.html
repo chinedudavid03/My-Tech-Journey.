@@ -4,29 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
-    <link  rel="stylesheet"  href="style.css">
+    <link  rel="stylesheet"  href="style.css"/>
 
     </head>
 <body>
-
-    <form id="my-profile" action="https://formsubmit.co/chinedudavid20063@gmail.com" method="POST" target="_blank">
-    <input type="hidden" name="_captcha" value="true">
-    <input type="hidden" name="_next" value="https://chinedudavid03.github.io/My-Tech-Journey./Thankyou.html">  
-
-    <div class="container">
-        <img src="My image.jpg" alt=" A picture of myself" height="600px" width="500px" class="profile">
+    
+<div class="container">
+    <div class="image-box">
+        <img src="My image.jpg" alt=" A picture of myself" class="img">
     </div>
-
-    <div class="box">
-        <div class="context">
+    
+    <div class="context-box">
              <h1>
       &nbsp; Hi There, This Is My Journey On How I Broke Into TECH
         </h1>
 
-        <article>
+        <article></article>
         <p>
-           Firstly, let me introduce myself. My name is <strong>Chinweike David Chinedu, </strong>I'm from Enugu state to be precise.
-           <strong>Am a student at the National Open University Of Nigeria</strong> currently at my 200level, pursuing a Bachelors degree in Computer Science.
+           Firstly, let me introduce myself. My name is <strong class="my-name">Chinweike David Chinedu, </strong>I'm from Enugu state to be precise.
+           <strong>Am a student at the National Open University Of Nigeria</strong> currently at my 200level, pursuing a Bachelors Degree in Computer Science.
            Well i come from a family of four Boys, and i'm second on the list. And also am an Affiliate Marketer, that's basically how i survive  <br> Yeah that's all you need to know about me for now, let's get down to the reason you're reading this.
         </p>
     
@@ -43,10 +39,11 @@
             </ul>
         </p>
         <p>
-            At that point i began to doubt myself and my chioces. But everything changed this year.<br>
-             When i heard about the Enugu Tech Fest, i was excited and i said to myself &nbsp; <em>finally i can get to hear from expacts in the tech ecosystem. </em><br>
+            At that point i began to doubt myself and my chioces. But everything changed this year.<br><br>
+            My turning point was when i heard about the <strong> Enugu Tech Fest,</strong> i was excited and i said to myself &nbsp; <em>finally i can get to hear from expacts in the tech ecosystem. </em><br>
              And it was amazing, because it ignited that passion in me again. And that's how i got to know about <strong>Genesys Tech Hub,</strong> and to be honest am loving the experience and exposure to the amazing stuffs am learning as a <em>Web Developer Inter.</em> <br><br>
              Well that's the <strong>end for now,</strong> can't wait to see what the future holds after this training.
+             
         </p>
 
         <h3>Alright guys hope you enjoyed my story cuz i did. But i'll like to hear yours also.</h3>
@@ -55,12 +52,16 @@
         </p>
         
         <h2>Thanks so much for finding time to read my profile. Can't wait to see what the future holds for you as well. </h2>
-        
         </article>
-        </div>
     </div>
+</div>
 
-    <div class="form">
+     <form id="my-profile" action="https://formsubmit.co/chinedudavid20063@gmail.com" method="POST" target="_blank">
+        <input type="hidden" name="_captcha" value="true">
+        <input type="hidden" name="_next" value="https://chinedudavid03.github.io/My-Tech-Journey./Thankyou.html">  
+
+
+     <div class="form">
         <label class="name"> Name</label>
         <input type="text" name="Full name" id="name" placeholder="full name" required>
 
@@ -93,15 +94,11 @@
         </P>
          <textarea id="textarea" placeholder= "How's your tech journey begin like so far?" rows="10" cols="40" value="textarea" required></textarea>
          
-         <button class="action">Submit</button> 
+         <div class="button-form">
+            <button class="action">Submit</button>
+         </div>
+        
+    </form>
     </div>
-
-    
-
-
-
-
-
-
 </body>
 </html>

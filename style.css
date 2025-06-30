@@ -4,43 +4,44 @@ body{
 }
 
 .container{
-    position: absolute;
-    left:650px;
-    display:flex;
+    display: flex;
+    height:auto;
+    margin: 30px;
+    background-color:white;
+    max-width: auto;
+    border-radius: 50px;
+    overflow: hidden;
+    overflow-y:3px;
 }
 
-.profile{
-    width: 500px;
-    height: 700px;
+    
+.image-box{
+    width:50%;
+}
+
+.img{
+    width:100%;
     object-fit:cover;
-    border-radius: 20%;
-    margin-left: 10px;
-    margin-top: 70px;
+    height:100%;
 }
 
-.box{
-    background-color: white;
-    height: 1100px;
-    width: 610px;
-    border-bottom-right-radius:100px ;
-    border-top-left-radius:100px ;
-    margin-left: 20px;
-    margin-top: 40px;
+.context-box{
+     background-color:aliceblue;
+     width:60%;
+     padding:10px;
+     text-align: justify;
+     font-size: 20px;
 }
 
-.context{
-    padding: 10px 10px;
-    font-size: 18px;
-}
 
 .form{
     background-color: rgb(200, 210, 212);
     position: absolute;
-    height: 500px;
-    width: 600px;
+    height: auto;
+    max-width: 700px;
     border-radius: 70px;
     margin-top: 40px;
-    margin-left: 300px;
+    margin-left: 30px;
     margin-bottom: 50px;
     padding-top: 30px;
     padding-left: 30px;
@@ -54,6 +55,13 @@ body{
     margin-right: 60px;
     padding: 10px;
     border-radius: 30px;
+}
+
+.button-form{
+    position: relative;
+    bottom:150px;
+    left:350px;
+    
 }
 
 .action{
@@ -96,8 +104,14 @@ body{
         font-size: 15px;
         padding: 5px;
         border: none;
+        max-width: auto;
+        width:auto;
     }
 
+    .my-name{
+        font-size:25px;
+        font-weight:bolder;
+    }
     .name{
         font-size: 20px;
         font-weight: bolder;
@@ -122,4 +136,13 @@ body{
     #share-journey{
         font-weight: bolder;
         margin-left: 100px;
+    }
+
+    strong{
+        color:rgb(35, 30, 163);
+
+    }
+
+    h1{
+         color:rgb(9, 7, 66);
     }
